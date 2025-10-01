@@ -6,7 +6,15 @@ This project explores **global CO₂ emissions per capita**, analyzing the drive
 
 ## 📂 Project Structure
 ```text
-CO2_Per_Capita_Portfolio/ │ ├─ README.md # Project overview and instructions ├─ data/ │ └─ dataset_cleaned.csv # Cleaned dataset for analysis ├─ notebooks/      ├─ CO2_Emissions_EDA_Per_Capita.ipynb # Exploratory Data Analysis      └─ CO2_Per_Capita_Modeling.ipynb # Modelling and feature importance
+CO2_Per_Capita_Portfolio/
+├─ README.md # Project overview and instructions
+├─ requirements.txt # Python dependencies for reproducibility
+├─ data/
+│ ├─ owid-co2-data.csv # Original dataset (from Our World in Data)
+│ └─ dataset_cleaned.csv # Preprocessed / cleaned dataset used in analysis
+└─ notebooks/
+├─ C02_Emissions_regression_(EDA).ipynb # Exploratory Data Analysis notebook
+└─ C02_Emissions_regression_(Modelling).ipynb # Modelling and feature importance notebook
 ```
 
 ---
